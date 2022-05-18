@@ -23,7 +23,6 @@ car.move("右",5)
 # car = Car.new
 # car.turn("右")
 
-
 # クラスメソッド
 class Car
     def self.run(distance)
@@ -32,3 +31,14 @@ class Car
 end
 
 Car.run(10)
+
+
+# 演習問題
+
+class Car
+    def self.turn(direction)
+        puts "#{direction}に曲がります。"
+    end
+end
+
+Car.turn("右")
